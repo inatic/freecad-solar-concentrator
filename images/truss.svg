@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800mm"
+   height="250mm"
+   viewBox="0 0 800.00002 250.00001"
+   version="1.1"
+   id="svg4218"
+   sodipodi:docname="truss.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata4224">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4222" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1916"
+     inkscape:window-height="1040"
+     id="namedview4220"
+     showgrid="false"
+     inkscape:zoom="0.42515459"
+     inkscape:cx="1407.8262"
+     inkscape:cy="434.935"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4218"
+     width="800mm" />
+  <g
+     id="Shape2DView001"
+     transform="matrix(1,0,0,-1,124.825,-165.40586)">
+    <title
+       id="title4051">b'Shape2DView001'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#ff0000;stroke-width:1.14565754"
+     id="Shape2DView"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView_nwe0000"
+       d="m -122.5,-350 32.5,50 27.5,50 22.5,50 17.5,50 12.5,50 7.5,50 2.5,50 -2.5,50 -7.5,50 -12.5,50 -17.5,50 -22.5,50 -27.5,50 -32.5,50"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4048">b'Shape2DView'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#008000;stroke-width:1.14565754"
+     id="Shape2DView002"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView002_nwe0000"
+       d="m -114.30768,-355.73462 81.923191,-57.34624"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4055">b'Shape2DView002'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#008000;stroke-width:1.14565754"
+     id="Shape2DView003"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView003_nwe0000"
+       d="m -73.376063,-291.41994 86.769342,-49.70997"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4059">b'Shape2DView003'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#008000;stroke-width:1.14565754"
+     id="Shape2DView004"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView004_nwe0000"
+       d="M -38.905186,-223.24952 52.67797,-263.40579"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4063">b'Shape2DView004'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#008000;stroke-width:1.14565754"
+     id="Shape2DView005"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView005_nwe0000"
+       d="M -12.482737,-151.40306 83.3758,-179.8836"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4067">b'Shape2DView005'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#008000;stroke-width:1.14565754"
+     id="Shape2DView006"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView006_nwe0000"
+       d="M 4.2528713,-76.559981 103.14433,-91.408557"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4071">b'Shape2DView006'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#008000;stroke-width:1.14565754"
+     id="Shape2DView007"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView007_nwe0000"
+       d="M 10,0 H 110"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4075">b'Shape2DView007'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#008000;stroke-width:1.14565754"
+     id="Shape2DView008"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView008_nwe0000"
+       d="M 4.2528713,76.559981 103.14433,91.408557"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4079">b'Shape2DView008'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#008000;stroke-width:1.14565754"
+     id="Shape2DView009"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView009_nwe0000"
+       d="M -12.482737,151.40306 83.3758,179.8836"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4083">b'Shape2DView009'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#008000;stroke-width:1.14565754"
+     id="Shape2DView010"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView010_nwe0000"
+       d="M -38.905186,223.24952 52.67797,263.40579"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4087">b'Shape2DView010'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#008000;stroke-width:1.14565754"
+     id="Shape2DView011"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView011_nwe0000"
+       d="m -73.376063,291.41994 86.769342,49.70997"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4091">b'Shape2DView011'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#008000;stroke-width:1.14565754"
+     id="Shape2DView012"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView012_nwe0000"
+       d="m -114.30768,355.73462 81.923191,57.34624"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4095">b'Shape2DView012'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000000;stroke-width:1.14565754"
+     id="Shape2DView013"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView013_nwe0000"
+       d="m -106.11536,-361.46925 41.416231,65.07831"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4099">b'Shape2DView013'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000000;stroke-width:1.14565754"
+     id="Shape2DView014"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView014_nwe0000"
+       d="m -64.699129,-296.39094 34.952259,69.12579"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4103">b'Shape2DView014'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000000;stroke-width:1.14565754"
+     id="Shape2DView015"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView015_nwe0000"
+       d="m -29.74687,-227.26515 26.8499863,73.01403"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4107">b'Shape2DView015'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000000;stroke-width:1.14565754"
+     id="Shape2DView016"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView016_nwe0000"
+       d="M -2.8968837,-154.25112 14.142017,-78.044839"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4111">b'Shape2DView016'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000000;stroke-width:1.14565754"
+     id="Shape2DView017"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView017_nwe0000"
+       d="M 14.142017,-78.044839 20,0"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4115">b'Shape2DView017'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000000;stroke-width:1.14565754"
+     id="Shape2DView018"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView018_nwe0000"
+       d="M 20,0 14.142017,78.044839"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4119">b'Shape2DView018'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000000;stroke-width:1.14565754"
+     id="Shape2DView019"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView019_nwe0000"
+       d="M 14.142017,78.044839 -2.8968837,154.25112"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4123">b'Shape2DView019'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000000;stroke-width:1.14565754"
+     id="Shape2DView020"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView020_nwe0000"
+       d="M -2.8968837,154.25112 -29.74687,227.26515"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4127">b'Shape2DView020'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000000;stroke-width:1.14565754"
+     id="Shape2DView021"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView021_nwe0000"
+       d="m -29.74687,227.26515 -34.952259,69.12579"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4131">b'Shape2DView021'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000000;stroke-width:1.14565754"
+     id="Shape2DView022"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView022_nwe0000"
+       d="m -64.699129,296.39094 -41.416231,65.07831"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4135">b'Shape2DView022'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000000;stroke-width:1.14565754"
+     id="Shape2DView023"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView023_nwe0000"
+       d="m -32.384489,-413.08086 45.777768,71.95095"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4139">b'Shape2DView023'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000000;stroke-width:1.14565754"
+     id="Shape2DView024"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView024_nwe0000"
+       d="m 13.393279,-341.12991 39.284691,77.72412"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4143">b'Shape2DView024'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000000;stroke-width:1.14565754"
+     id="Shape2DView025"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView025_nwe0000"
+       d="M 52.67797,-263.40579 83.3758,-179.8836"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4147">b'Shape2DView025'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000000;stroke-width:1.14565754"
+     id="Shape2DView026"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView026_nwe0000"
+       d="m 83.3758,-179.8836 19.76853,88.475043"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4151">b'Shape2DView026'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000000;stroke-width:1.14565754"
+     id="Shape2DView027"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView027_nwe0000"
+       d="M 103.14433,-91.408557 110,0"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4155">b'Shape2DView027'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000000;stroke-width:1.14565754"
+     id="Shape2DView028"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView028_nwe0000"
+       d="m 110,0 -6.85567,91.408557"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4159">b'Shape2DView028'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000000;stroke-width:1.14565754"
+     id="Shape2DView029"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView029_nwe0000"
+       d="M 103.14433,91.408557 83.3758,179.8836"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4163">b'Shape2DView029'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000000;stroke-width:1.14565754"
+     id="Shape2DView030"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView030_nwe0000"
+       d="M 83.3758,179.8836 52.67797,263.40579"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4167">b'Shape2DView030'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000000;stroke-width:1.14565754"
+     id="Shape2DView031"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView031_nwe0000"
+       d="M 52.67797,263.40579 13.393279,341.12991"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4171">b'Shape2DView031'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000000;stroke-width:1.14565754"
+     id="Shape2DView032"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView032_nwe0000"
+       d="m 13.393279,341.12991 -45.777768,71.95095"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4175">b'Shape2DView032'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000080;stroke-width:1.14565754"
+     id="Shape2DView033"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView033_nwe0000"
+       d="m -106.11536,-361.46925 119.508639,20.33934"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4179">b'Shape2DView033'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000080;stroke-width:1.14565754"
+     id="Shape2DView034"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView034_nwe0000"
+       d="M 13.393279,-341.12991 -29.74687,-227.26515"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4183">b'Shape2DView034'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000080;stroke-width:1.14565754"
+     id="Shape2DView035"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView035_nwe0000"
+       d="M -29.74687,-227.26515 83.3758,-179.8836"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4187">b'Shape2DView035'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000080;stroke-width:1.14565754"
+     id="Shape2DView036"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView036_nwe0000"
+       d="M 83.3758,-179.8836 14.142017,-78.044839"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4191">b'Shape2DView036'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000080;stroke-width:1.14565754"
+     id="Shape2DView037"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView037_nwe0000"
+       d="M 14.142017,-78.044839 110,0"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4195">b'Shape2DView037'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000080;stroke-width:1.14565754"
+     id="Shape2DView038"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView038_nwe0000"
+       d="M 110,0 14.142017,78.044839"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4199">b'Shape2DView038'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000080;stroke-width:1.14565754"
+     id="Shape2DView039"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView039_nwe0000"
+       d="M 14.142017,78.044839 83.3758,179.8836"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4203">b'Shape2DView039'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000080;stroke-width:1.14565754"
+     id="Shape2DView040"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView040_nwe0000"
+       d="M 83.3758,179.8836 -29.74687,227.26515"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4207">b'Shape2DView040'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000080;stroke-width:1.14565754"
+     id="Shape2DView041"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView041_nwe0000"
+       d="M -29.74687,227.26515 13.393279,341.12991"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4211">b'Shape2DView041'</title>
+  </g>
+  <g
+     style="fill:none;stroke:#000080;stroke-width:1.14565754"
+     id="Shape2DView042"
+     transform="matrix(0,0.92377811,0.92377811,0,399.48692,133.94733)">
+    <path
+       inkscape:connector-curvature="0"
+       id="Shape2DView042_nwe0000"
+       d="M 13.393279,341.12991 -106.11536,361.46925"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:1.14565754;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title4215">b'Shape2DView042'</title>
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.11111164px;line-height:1.25;font-family:'Gotham Light';-inkscape-font-specification:'Gotham Light, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000080;stroke-width:0.52916668;"
+     x="79.880821"
+     y="457.89816"
+     id="text5044"
+     transform="rotate(-52.964263)"><tspan
+       sodipodi:role="line"
+       id="tspan5042"
+       x="79.880821"
+       y="457.89816"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.11111164px;font-family:'Gotham Light';-inkscape-font-specification:'Gotham Light, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.52916668;stroke:#000080;">diagonal</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Gotham Light';-inkscape-font-specification:'Gotham Light, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833336;"
+     x="399.11816"
+     y="183.4113"
+     id="text5044-2"
+     transform="rotate(-4.8921966)"><tspan
+       sodipodi:role="line"
+       x="399.11816"
+       y="183.4113"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.11111069px;font-family:'Gotham Light';-inkscape-font-specification:'Gotham Light, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.05833336;"
+       id="tspan5064">chord</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.11110973px;line-height:1.25;font-family:'Gotham Light';-inkscape-font-specification:'Gotham Light, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833336;"
+     x="403.37274"
+     y="264.90836"
+     id="text5044-2-8"
+     transform="rotate(-4.8921966)"><tspan
+       sodipodi:role="line"
+       x="403.37274"
+       y="264.90836"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.11110973px;font-family:'Gotham Light';-inkscape-font-specification:'Gotham Light, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.05833336;"
+       id="tspan5064-9">chord</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Gotham Light';-inkscape-font-specification:'Gotham Light, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#ff0000;stroke-width:0.5291667"
+     x="540.76447"
+     y="387.80789"
+     id="text5044-1"
+     transform="rotate(-31.513382)"><tspan
+       sodipodi:role="line"
+       id="tspan5042-5"
+       x="540.76447"
+       y="387.80789"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.11111069px;font-family:'Gotham Light';-inkscape-font-specification:'Gotham Light, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke:#ff0000;stroke-width:0.5291667">parabola</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Gotham Light';-inkscape-font-specification:'Gotham Light, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#008000;stroke-width:0.52916668;"
+     x="-212.14156"
+     y="395.86679"
+     id="text5044-4"
+     transform="rotate(-89.941685)"><tspan
+       sodipodi:role="line"
+       id="tspan5042-9"
+       x="-212.14156"
+       y="395.86679"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.11111069px;font-family:'Gotham Light';-inkscape-font-specification:'Gotham Light, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.52916668;stroke:#008000;">normal</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Gotham Light';-inkscape-font-specification:'Gotham Light, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#008000;stroke-width:0.5291667"
+     x="-42.365036"
+     y="70.797302"
+     id="text5044-4-3"
+     transform="rotate(-55.506774)"><tspan
+       sodipodi:role="line"
+       id="tspan5042-9-3"
+       x="-42.365036"
+       y="70.797302"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.11111069px;font-family:'Gotham Light';-inkscape-font-specification:'Gotham Light, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke:#008000;stroke-width:0.5291667">N1</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Gotham Light';-inkscape-font-specification:'Gotham Light, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#008000;stroke-width:0.5291667"
+     x="-53.497963"
+     y="142.79904"
+     id="text5044-4-3-1"
+     transform="rotate(-61.217134)"><tspan
+       sodipodi:role="line"
+       id="tspan5042-9-3-0"
+       x="-53.497963"
+       y="142.79904"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.11111069px;font-family:'Gotham Light';-inkscape-font-specification:'Gotham Light, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke:#008000;stroke-width:0.5291667">N2</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.11110973px;line-height:1.25;font-family:'Gotham Light';-inkscape-font-specification:'Gotham Light, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#008000;stroke-width:0.5291667"
+     x="-76.039612"
+     y="212.97249"
+     id="text5044-4-3-1-2"
+     transform="rotate(-66.998889)"><tspan
+       sodipodi:role="line"
+       id="tspan5042-9-3-0-5"
+       x="-76.039612"
+       y="212.97249"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.11110973px;font-family:'Gotham Light';-inkscape-font-specification:'Gotham Light, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke:#008000;stroke-width:0.5291667">N3</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.11110973px;line-height:1.25;font-family:'Gotham Light';-inkscape-font-specification:'Gotham Light, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.0583334"
+     x="105.30469"
+     y="-4.5326152"
+     id="text5044-2-0"
+     transform="rotate(31.330661)"><tspan
+       sodipodi:role="line"
+       x="105.30469"
+       y="-4.5326152"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.11110973px;font-family:'Gotham Light';-inkscape-font-specification:'Gotham Light, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.0583334"
+       id="tspan5064-6">U1</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.11110973px;line-height:1.25;font-family:'Gotham Light';-inkscape-font-specification:'Gotham Light, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.0583334"
+     x="172.26076"
+     y="5.4303985"
+     id="text5044-2-0-7"
+     transform="rotate(27.507836)"><tspan
+       sodipodi:role="line"
+       x="172.26076"
+       y="5.4303985"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.11110973px;font-family:'Gotham Light';-inkscape-font-specification:'Gotham Light, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.0583334"
+       id="tspan5064-6-4">U2</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.11110973px;line-height:1.25;font-family:'Gotham Light';-inkscape-font-specification:'Gotham Light, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.0583334"
+     x="241.86293"
+     y="35.135223"
+     id="text5044-2-0-7-9"
+     transform="rotate(19.543967)"><tspan
+       sodipodi:role="line"
+       x="241.86293"
+       y="35.135223"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.11110973px;font-family:'Gotham Light';-inkscape-font-specification:'Gotham Light, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.0583334"
+       id="tspan5064-6-4-2">U3</tspan></text>
+</svg>
