@@ -36,16 +36,21 @@ A reflective surface that follows the curve of a parabola can be used to concent
 The following uses the `Part` module to create a parabola with its `Center` at the origin. The plane of the parabola is perpendicular to the y-axis (`Axis`) and it is oriented along the positive Z-Axis (`XAxis`). The distance between the `Center` of the parabola and its focus is referred to as its `Focal` distance. Endpoints to both sides of the parabola are specified as distances along its `directrix`, starting from the origin and going in both directions (`parameter1` and `parameter2`). Turning the mathematical curve into an `edge` shape that can be added to a document is done using the `toShape` method, taking previous parameters as arguments.
 
 ```python
+focalDistance = 1000
+parameter1 = -1500
+parameter2 = 1500
+
 parabola = Part.Parabola()
 parabola.Center = FreeCAD.Vector(0,0,0)
 parabola.Axis = FreeCAD.Vector(0,1,0)
 parabola.XAxis = FreeCAD.Vector(0,0,1)
-parabola.Focal = 1000
-parameter1 = -750
-parameter2 = 750
+parabola.Focal = focalDistance
 edge = parabola.toShape(parameter1, parameter2)
 objectParabola = doc.addObject('Part::Feature', 'Parabola')
 objectParabola.Shape = edge
+objectFocus = doc.addObject('Part::Feature', 'Focus')
+pipe = Part.Face(Part.Wire(Part.makeCircle(50, parabola.Focus, parabola.Axis))).extrude(parabola.Axis*20)
+objectFocus.Shape = pipe
 ```
 
 ## TRUSS
@@ -55,13 +60,14 @@ For the mirror to follow the curve of a parabola, it needs to be supported by a 
 ![Truss](images/truss.svg)
 
 ```python
-subdivisions = 10
-bracketSpacing = edge.Length/subdivisions
+subdivisions = 9
 topMountOffset = 25
-bracketOffset = 25                      	# offset from parabola to hole for bracket
-upperChordOffset = bracketOffset + 50   	# offset from parabola to hole for upper chord
-lowerChordOffset = bracketOffset + 200		# offset from parabola to hole for lower chord
-bottomMountOffset = 25
+bracketOffset = 25
+upperChordOffset = bracketOffset + 50
+lowerChordOffset = bracketOffset + 250
+bottomMountOffset = 50
+
+bracketSpacing = edge.Length/subdivisions
 
 normalMembers = []
 for i in range(0, subdivisions + 1):
@@ -107,7 +113,7 @@ for i in range(0,len(normalMembers)-1):
 
 Solar energy is concentrated and the resulting heat collected at the focal point of the parabola, where a collector is held in place by a supporting truss structure. As the collector builds on this structure, some distance (`supportOffset`) is left between the end of the support structure and the focal point of the parabola. The top of the support structure (`supportTopWidth`) is narrower than its bottom, and a number of web members (`webMembers`) give the structure additional strength. At the bottom the support structure attached to the normal members of the parabola's truss. If there is an even number of normal members, the structure attaches to the pair in the middle. If there is an odd number of normal members, the pair adjacent to the middle normal member is used to connect the collector structure. Attachment points are named `supportBase1` and `supportBase2`.
 
-```
+```python
 collectorOffset = 150
 supportTopWidth = 30
 webMembers = 5
@@ -130,7 +136,7 @@ supportBase2 = normalMembers[indexMember2][0]
 
 Endpoints for side members are determined by starting at the focus of the parabola, subtracting `collectorOffset`, and moving half of `supportTopWidth` to each side. Members are then added to the `collectorSupportMembers` list.
 
-```
+```python
 uDirection = (parabola.Focus - parabola.Center).normalize()
 vDirection = (supportBase1 - supportBase2).normalize()
 supportTop1 = parabola.Focus - collectorOffset*uDirection + (supportTopWidth/2)*vDirection
@@ -143,7 +149,7 @@ collectorSupportMembers.append([supportTop1, supportTop2])
 
 A number of web members (`webMembers`) connect at regular intervals along the length of the side members in a zigzag pattern. Points on side members are specified in terms of their respective direction vectors `dir1` and `dir2`. 
 
-```
+```python
 dir1 = (supportTop1 - supportBase1).normalize()
 dir2 = (supportTop2 - supportBase2).normalize()
 sideMemberLength = (supportTop1 - supportBase1).Length
@@ -233,7 +239,7 @@ def getHolePositions(self):
 
 Lengths of bars and the locations for holes to be drilled are added to a `SpreadSheet` object named `Cutlist`. This is done by iterating over `Bar` objects and fetching the positions of holes using the `getHolePositions` method. We're also keeping track of the total length of bar stock (`totalBarLength`) that is used to build the truss in order to have an estimate of material requirements. 
 
-```
+```python
 totalBarLength = 0
 for bar in bars:
     sheet.set('A'+str(row), bar.name)
