@@ -8,9 +8,9 @@ if not doc:
 # PARABOLA
 
 ## Parameters
-focalDistance = 1000
-parameter1 = -1500
-parameter2 = 1500
+focalDistance = 500
+parameter1 = -500
+parameter2 = 500
 
 parabola = Part.Parabola()
 parabola.Center = FreeCAD.Vector(0,0,0)
@@ -27,14 +27,25 @@ objectFocus.Shape = pipe
 # TRUSS
 
 ## Parameters
-subdivisions = 9
+subdivisions = 6
 topMountOffset = 25
 bracketOffset = 25
 upperChordOffset = bracketOffset + 50
-lowerChordOffset = bracketOffset + 250
+lowerChordOffset = bracketOffset + 200
 bottomMountOffset = 50
 
 bracketSpacing = edge.Length/subdivisions
+
+numNormalMembers = subdivisions + 1
+if numNormalMembers % 2 == 0:
+  # even number of members
+  indexMember1 = int(numNormalMembers/2 - 1)
+  indexMember2 = int(numNormalMembers/2)
+else:
+  # odd number of members
+  indexMember1 = int((numNormalMembers+1)/2 - 2)
+  indexMember2 = int((numNormalMembers+1)/2)
+middleNormalMembers = [indexMember1, indexMember2]
 
 normalMembers = []
 for i in range(0, subdivisions + 1):
@@ -74,49 +85,52 @@ for i in range(0,len(normalMembers)-1):
 # COLLECTOR SUPPORT
 
 ## Parameters
-collectorOffset = 150
-supportTopWidth = 30
-webMembers = 5
+collectorOffset = 75
+supportTopWidth = 75
+numWebMembers = 3
 
 collectorSupportMembers = []
 
-num = len(normalMembers)
-if num % 2 == 0:
-  # even number of members
-  indexMember1 = int(num/2 - 1)
-  indexMember2 = int(num/2)
-else:
-  # odd number of members
-  indexMember1 = int((num+1)/2 - 2)
-  indexMember2 = int((num+1)/2)
-
-supportBase1 = normalMembers[indexMember1][0]
-supportBase2 = normalMembers[indexMember2][0]
+supportBase1 = normalMembers[middleNormalMembers[0]][0]
+supportBase2 = normalMembers[middleNormalMembers[1]][0]
 
 uDirection = (parabola.Focus - parabola.Center).normalize()
 vDirection = (supportBase1 - supportBase2).normalize()
 supportTop1 = parabola.Focus - collectorOffset*uDirection + (supportTopWidth/2)*vDirection
 supportTop2 = parabola.Focus - collectorOffset*uDirection - (supportTopWidth/2)*vDirection
 
-collectorSupportMembers.append([supportBase1, supportTop1])
-collectorSupportMembers.append([supportBase2, supportTop2])
-collectorSupportMembers.append([supportTop1, supportTop2])
+sideMember1 = [supportBase1]
+sideMember2 = [supportBase2]
 
 dir1 = (supportTop1 - supportBase1).normalize()
 dir2 = (supportTop2 - supportBase2).normalize()
 sideMemberLength = (supportTop1 - supportBase1).Length
-webMemberStep = sideMemberLength / webMembers
+webMemberStep = sideMemberLength / numWebMembers
 
-for i in range(1, webMembers):
+webMembers = []
+for i in range(1, numWebMembers):
   if i % 2 == 0:
     height1 = (i-1) * webMemberStep
     height2 = i * webMemberStep
+    point1 = supportBase1 + height1*dir1
+    point2 = supportBase2 + height2*dir2
+    sideMember1.append(point1)    
+    sideMember2.append(point2)    
   else:
     height2 = (i-1) * webMemberStep
     height1 = i * webMemberStep
-  point1 = supportBase1 + height1*dir1
-  point2 = supportBase2 + height2*dir2
-  collectorSupportMembers.append([point1, point2])
+    point1 = supportBase1 + height1*dir1
+    point2 = supportBase2 + height2*dir2
+    sideMember1.append(point2)    
+    sideMember2.append(point1)    
+  webMembers.append([point1, point2])
+
+sideMember1.append(supportTop1)
+sideMember2.append(supportTop2)
+collectorSupportMembers.append(sideMember1)
+collectorSupportMembers.append(sideMember2)
+collectorSupportMembers.append([supportTop1, supportTop2])
+collectorSupportMembers.extend(webMembers)
 
 # BARS
 
