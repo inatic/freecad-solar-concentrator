@@ -5,7 +5,7 @@ A mirror shaped like a parabola can be used to concentrate energy from the sun o
 
 ```
 cd ~/.FreeCAD/Macro
-git clone https://github.com/inatic/solar-concentrator solar
+git clone https://github.com/inatic/freecad-solar-concentrator solar
 ```
 
 The script is executed in FreeCAD by simple importing it from the Python Console, activating the latter can be done under *View | Panels | Python Console*. When all goes well this creates a document with a parabola shaped rib as well as a cutlist for the bars that are used to build it. Parameters in the script allow changing the shape and size of the parabola as well as the design of the truss. Once imported and after making modifications to the script, it can be reloaded using the `importlib.reload` method.
