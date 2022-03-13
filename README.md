@@ -1,3 +1,6 @@
+
+![Example1](images/exmaple1-small.jpg)
+
 A mirror shaped like a parabola can be used to concentrate energy from the sun on a small area, from which the resulting heat might be carried off by water or some other medium. The following describes a script that creates a custom support structure for such a parabolic mirror. It is referred to as a *rib* and on one side follows the curve of a parabola, while on the other it is supported by a truss that keeps the parabola in the correct shape. The script is written in Python and runs in [FreeCAD][freecad], which is an open-source CAD/CAM package. It can be cloned from [Github][github] and needs to be placed in the `Macro` directory of your FreeCAD installation. To find where that is, start FreeCAD and click *Edit | Preferences | General | Macro* to have a look at the `Macro path` setting. The following uses the default location when FreeCAD was installed under [Ubuntu][ubuntu].
 
 ```
