@@ -1,14 +1,14 @@
 
 ![Example1](images/example1-small.jpg)
 
-A mirror shaped like a parabola can be used to concentrate energy from the sun on a small area, from which the resulting heat might be carried off by water or some other medium. The following describes a script that creates a custom support structure for such a parabolic mirror. It is referred to as a *rib* and on one side follows the curve of a parabola, while on the other it is supported by a truss that keeps the parabola in the correct shape. The script is written in Python and runs in [FreeCAD][freecad], which is an open-source CAD/CAM package. It can be cloned from [Github][github] and needs to be placed in the `Macro` directory of your FreeCAD installation. To find where that is, start FreeCAD and click *Edit | Preferences | General | Macro* to have a look at the `Macro path` setting. The following uses the default location when FreeCAD was installed under [Ubuntu][ubuntu].
+The script in this repository creates a support structure for a parabolic mirror. Code is written in Python and runs in [FreeCAD](freecad), which is an open-source CAD/CAM package. It can be cloned from [Github][github] and needs to be placed in the `Macro` directory of your FreeCAD installation. To find where that is, start FreeCAD and click **Edit | Preferences | General | Macro** to have a look at the `Macro path` setting. The following uses the default location on my [Ubuntu][ubuntu] installation.
 
 ```
-cd ~/.FreeCAD/Macro
+cd ~/.local/share/FreeCAD/Macro
 git clone https://github.com/inatic/freecad-solar-concentrator solar
 ```
 
-The script is executed in FreeCAD by simple importing it from the Python Console, activating the latter can be done under *View | Panels | Python Console*. When all goes well this creates a document with a parabola shaped rib as well as a cutlist for the bars that are used to build it. Parameters in the script allow changing the shape and size of the parabola as well as the design of the truss. Once imported and after making modifications to the script, it can be reloaded using the `importlib.reload` method.
+The script is executed in FreeCAD by simply importing it from the *Python Console*, which can be activated under *View | Panels | Python Console*. When all goes well this creates a document containing a parabola shaped truss as well as a cutlist for the bars that are used to build it. Parameters in the script allow changing the shape and size of the parabola as well as the design of the truss. Once imported and after making modifications to the script, reloading is done using the `importlib.reload()` method.
 
 ```
 from solar import concentrator
@@ -18,7 +18,7 @@ importlib.reload(concentrator)
 
 # SCRIPT
 
-The following explains how the script works and should allow for easier customization. It also includes some general information on scripting in FreeCAD. As any typical script it starts by importing necessary modules, after which it checks for a document that is open in the graphical user interface of your FreeCAD application and if necessary creates one. 
+The following explains how the script works and should allow for easy customization. It also includes some general information on scripting in FreeCAD. As any typical script it starts by importing the necessary modules, and then checks for an open FreeCAD document, which if absent is created.
 
 ```python
 import Part, Draft, math, copy
@@ -32,11 +32,13 @@ if not doc:
 
 ## PARABOLA
 
-A reflective surface that follows the curve of a parabola can be used to concentrator solar energy. A parabola is defined by a point named the `focus`, which is where the light is concentrated, and an axis named the `directrix` which in our case comes under and along the length of the parabola. For each point on the parabola, the perpendicular distance to the directrix should be the same as the distance to the focus. Instead of a directrix our script uses a `Center` (also known as `vertex`), which is the point on the parabola's axis of symmetry that is midway between `focus` and `directrix`. A parabola is a mathematical construct that is not limited in size, any point that has equal distances to focus and directrix is part of the parabola. The reflective surface of a concentrator however has endpoints and these are specified as its `parameters`. 
+A parabola is defined by a point named the `focus`, which is where the light will be concentrated, and an axis named the `directrix` which in our case comes under and along the length of the parabola. For each point on the parabola, its perpendicular distance to the directrix should equal its distance to the focus. Instead of a directrix our script defines a `center` or `vertex` to the same effect, this is a point on the parabola's axis of symmetry that is midway between `focus` and `directrix`. A parabola is a mathematical construct that is not limited in size, any point that has equal distances to focus and directrix is part of the parabola. The reflective surface of a concentrator however has `endpoints` and these are specified as its `parameters`. 
 
 ![Parabola](images/parabola.svg)
 
-The following uses the `Part` module to create a parabola with its `Center` at the origin. The plane of the parabola is perpendicular to the y-axis (`Axis`) and it is oriented along the positive Z-Axis (`XAxis`). The distance between the `Center` of the parabola and its focus is referred to as its `Focal` distance. Endpoints to both sides of the parabola are specified as distances along its `directrix`, starting from the origin and going in both directions (`parameter1` and `parameter2`). Turning the mathematical curve into an `edge` shape that can be added to a document is done using the `toShape` method, taking previous parameters as arguments.
+The `Part` module is then used to create such a parabola in FreeCAD. The `Center` of this particular parabola is chosen at the coordinate system origin, the plane of the parabola is chosen to be perpendicular to the y-axis (`Axis`), and the parabola is oriented along the positive Z-Axis (`XAxis`). The distance between the `Center` of the parabola and its focus is referred to as its `Focal` distance. Endpoints to both sides of the parabola are specified as distances along its `directrix` (which in this case is parallel to the x-axis), starting from the origin and going in both directions (`parameter1` and `parameter2`). Turning the mathematical curve into an `edge` shape that can be added to the document is done using the `toShape` method, taking previous parameters as arguments.
+
+![Parabola](images/parabola-freecad.svg)
 
 ```python
 focalDistance = 1000
